@@ -1,0 +1,41 @@
+{
+  "name": "tutoringplanningbackend",
+  "version": "1.0.0",
+  "description": "The tutoring Planning Project backend ",
+  "main": "index.js",
+  "dependencies": {
+    "bson": "^5.5.1",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ip": "^2.0.0",
+    "kareem": "^2.5.1",
+    "memory-pager": "^1.5.0",
+    "mongodb": "^5.9.0",
+    "mongodb-connection-string-url": "^2.6.0",
+    "mongoose": "^7.6.11",
+    "mpath": "^0.9.0",
+    "mquery": "^5.0.0",
+    "ms": "^2.1.3",
+    "punycode": "^2.3.1",
+    "sift": "^16.0.1",
+    "smart-buffer": "^4.2.0",
+    "socks": "^2.7.1",
+    "sparse-bitfield": "^3.0.3",
+    "tr46": "^3.0.0",
+    "undici-types": "^5.26.5",
+    "webidl-conversions": "^7.0.0",
+    "whatwg-url": "^11.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "author": "MD",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
