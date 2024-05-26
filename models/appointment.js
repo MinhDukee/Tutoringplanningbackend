@@ -16,8 +16,6 @@ mongoose.connect(url)
   })
 
 
-
-
 const appointmentSchema = new mongoose.Schema({
   time: Number,
   day: String,
