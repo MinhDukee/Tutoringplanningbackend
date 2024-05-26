@@ -16,7 +16,7 @@ tutorsRouter.post('/', async (request, response) => {
     appointments: [],
     schedule: []})
 
-  await axios.post('http://localhost:3001/schedules', {tutor: username, hours: [["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"]]})
+  await axios.post('http://localhost:3000/schedules', {tutor: username, hours: [["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"],["Free","Free","Free","Free","Free"]]})
 
   response.status(201).json(savedTutor)
 })
