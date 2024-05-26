@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
 
-
 mongoose.set('strictQuery',false)
 
 const url = process.env.MONGODB_URI
@@ -15,13 +14,13 @@ mongoose.connect(url)
     console.log('error connecting to MongoDB:', error.message)
   })
 
-
 const appointmentSchema = new mongoose.Schema({
   time: Number,
   day: String,
   tutor: String,
   student: String,
   state: String,
+  // 
 })
 
 appointmentSchema.set('toJSON', {
